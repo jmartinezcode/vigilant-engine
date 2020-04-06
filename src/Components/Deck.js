@@ -18,7 +18,7 @@ export default class Deck extends Component {
     return (
       <div className="container">
         <div className="row">
-          {this.state.cards.map(card => <div className="col s12" key={card.id}>{card.title}</div>)}
+          {this.state.cards.map(card => <div className="card" key={card.id}>{card.title}</div>)}
         </div>          
       </div>
     )
